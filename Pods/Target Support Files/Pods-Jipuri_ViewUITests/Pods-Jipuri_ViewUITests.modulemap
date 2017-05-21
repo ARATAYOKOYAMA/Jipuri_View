@@ -1,0 +1,6 @@
+framework module Pods_Jipuri_ViewUITests {
+  umbrella header "Pods-Jipuri_ViewUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3249D01965514A79FA8CDF /* Pods_Jipuri_ViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB11A60E7AE01D4CBD974A7 /* Pods_Jipuri_ViewTests.framework */; };
+		A914AF76C0BEE3DF036BBDE5 /* Pods_Jipuri_View.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6187561C78B17EC6D938E5FA /* Pods_Jipuri_View.framework */; };
+		DF21610A1EC75DF300DE5AF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2161091EC75DF300DE5AF1 /* AppDelegate.swift */; };
+		DF21610C1EC75DF300DE5AF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21610B1EC75DF300DE5AF1 /* ViewController.swift */; };
+		DF21610F1EC75DF300DE5AF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF21610D1EC75DF300DE5AF1 /* Main.storyboard */; };
+		DF2161111EC75DF300DE5AF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF2161101EC75DF300DE5AF1 /* Assets.xcassets */; };
+		DF2161141EC75DF300DE5AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2161121EC75DF300DE5AF1 /* LaunchScreen.storyboard */; };
+		DF21611F1EC75DF400DE5AF1 /* Jipuri_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21611E1EC75DF400DE5AF1 /* Jipuri_ViewTests.swift */; };
+		DF21612A1EC75DF400DE5AF1 /* Jipuri_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2161291EC75DF400DE5AF1 /* Jipuri_ViewUITests.swift */; };
+		DF2161391EC765FA00DE5AF1 /* Event.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF2161381EC765FA00DE5AF1 /* Event.storyboard */; };
+		DF21613B1EC7660B00DE5AF1 /* Information.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF21613A1EC7660B00DE5AF1 /* Information.storyboard */; };
+		DF21613D1EC7661700DE5AF1 /* Config.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF21613C1EC7661700DE5AF1 /* Config.storyboard */; };
+		DF21613F1EC76B4000DE5AF1 /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21613E1EC76B4000DE5AF1 /* Information.swift */; };
+		DF3536441EC83BE2001F981A /* Information_CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF3536431EC83BE2001F981A /* Information_CustomTableViewCell.swift */; };
+		DF6CFC701EC969A70072B31E /* Event_CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6CFC6F1EC969A70072B31E /* Event_CustomTableViewCell.swift */; };
+		DF6CFC721EC96D640072B31E /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6CFC711EC96D640072B31E /* Event.swift */; };
+		DF9D05001ECE8DFA0008BEA4 /* jinkawa_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DF9D04FF1ECE8DFA0008BEA4 /* jinkawa_logo.jpg */; };
+		DF9D05031ECE91880008BEA4 /* Event_Detail_Custom_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D05021ECE91880008BEA4 /* Event_Detail_Custom_TableViewCell.swift */; };
+		DF9D05051ECEDF120008BEA4 /* Event_Join.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D05041ECEDF120008BEA4 /* Event_Join.swift */; };
+		DF9D05071ED16D120008BEA4 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D05061ED16D120008BEA4 /* Config.swift */; };
+		DF9D05091ED182320008BEA4 /* Config_Custom_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D05081ED182320008BEA4 /* Config_Custom_TableViewCell.swift */; };
+		DF9D050B1ED1CE370008BEA4 /* Config_Custom01_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9D050A1ED1CE370008BEA4 /* Config_Custom01_TableViewCell.swift */; };
+		DFD65ABA1ECB5439006CB161 /* Event_Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD65AB91ECB5439006CB161 /* Event_Detail.swift */; };
+		E76A1A86F2593B2C3903C065 /* Pods_Jipuri_ViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42748AD1540AE6288EC5951B /* Pods_Jipuri_ViewUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF21611B1EC75DF400DE5AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2160FE1EC75DF200DE5AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2161051EC75DF200DE5AF1;
+			remoteInfo = Jipuri_View;
+		};
+		DF2161261EC75DF400DE5AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF2160FE1EC75DF200DE5AF1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF2161051EC75DF200DE5AF1;
+			remoteInfo = Jipuri_View;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18F88838A7FCD5044AE7BEC4 /* Pods-Jipuri_ViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipuri_ViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jipuri_ViewTests/Pods-Jipuri_ViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		2CB11A60E7AE01D4CBD974A7 /* Pods_Jipuri_ViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jipuri_ViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D261C007A8EA4AD616FFFB /* Pods-Jipuri_ViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipuri_ViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jipuri_ViewTests/Pods-Jipuri_ViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EBAF84E3943196735E8F430 /* Pods-Jipuri_View.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipuri_View.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jipuri_View/Pods-Jipuri_View.debug.xcconfig"; sourceTree = "<group>"; };
+		42748AD1540AE6288EC5951B /* Pods_Jipuri_ViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jipuri_ViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6187561C78B17EC6D938E5FA /* Pods_Jipuri_View.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jipuri_View.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B44138608D94716B0042720D /* Pods-Jipuri_ViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipuri_ViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jipuri_ViewUITests/Pods-Jipuri_ViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6C7C25D5A71B3D3FD982FE1 /* Pods-Jipuri_View.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipuri_View.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jipuri_View/Pods-Jipuri_View.release.xcconfig"; sourceTree = "<group>"; };
+		DF2161061EC75DF300DE5AF1 /* Jipuri_View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jipuri_View.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2161091EC75DF300DE5AF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF21610B1EC75DF300DE5AF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF21610E1EC75DF300DE5AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF2161101EC75DF300DE5AF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF2161131EC75DF300DE5AF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF2161151EC75DF300DE5AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF21611A1EC75DF400DE5AF1 /* Jipuri_ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jipuri_ViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF21611E1EC75DF400DE5AF1 /* Jipuri_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jipuri_ViewTests.swift; sourceTree = "<group>"; };
+		DF2161201EC75DF400DE5AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2161251EC75DF400DE5AF1 /* Jipuri_ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Jipuri_ViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF2161291EC75DF400DE5AF1 /* Jipuri_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jipuri_ViewUITests.swift; sourceTree = "<group>"; };
+		DF21612B1EC75DF400DE5AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2161371EC7617A00DE5AF1 /* Jipuri_View_Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jipuri_View_Bridging-Header.h"; sourceTree = "<group>"; };
+		DF2161381EC765FA00DE5AF1 /* Event.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Event.storyboard; sourceTree = "<group>"; };
+		DF21613A1EC7660B00DE5AF1 /* Information.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Information.storyboard; sourceTree = "<group>"; };
+		DF21613C1EC7661700DE5AF1 /* Config.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Config.storyboard; sourceTree = "<group>"; };
+		DF21613E1EC76B4000DE5AF1 /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		DF3536431EC83BE2001F981A /* Information_CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Information_CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DF6CFC6F1EC969A70072B31E /* Event_CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event_CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DF6CFC711EC96D640072B31E /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		DF9D04FF1ECE8DFA0008BEA4 /* jinkawa_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jinkawa_logo.jpg; sourceTree = "<group>"; };
+		DF9D05021ECE91880008BEA4 /* Event_Detail_Custom_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event_Detail_Custom_TableViewCell.swift; sourceTree = "<group>"; };
+		DF9D05041ECEDF120008BEA4 /* Event_Join.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event_Join.swift; sourceTree = "<group>"; };
+		DF9D05061ED16D120008BEA4 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		DF9D05081ED182320008BEA4 /* Config_Custom_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config_Custom_TableViewCell.swift; sourceTree = "<group>"; };
+		DF9D050A1ED1CE370008BEA4 /* Config_Custom01_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config_Custom01_TableViewCell.swift; sourceTree = "<group>"; };
+		DFD65AB91ECB5439006CB161 /* Event_Detail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event_Detail.swift; sourceTree = "<group>"; };
+		E9725752ACA8003B9EEC636D /* Pods-Jipuri_ViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jipuri_ViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jipuri_ViewUITests/Pods-Jipuri_ViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF2161031EC75DF200DE5AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A914AF76C0BEE3DF036BBDE5 /* Pods_Jipuri_View.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2161171EC75DF400DE5AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3249D01965514A79FA8CDF /* Pods_Jipuri_ViewTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2161221EC75DF400DE5AF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E76A1A86F2593B2C3903C065 /* Pods_Jipuri_ViewUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3A573C44970DCBE1E07D81 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EBAF84E3943196735E8F430 /* Pods-Jipuri_View.debug.xcconfig */,
+				C6C7C25D5A71B3D3FD982FE1 /* Pods-Jipuri_View.release.xcconfig */,
+				35D261C007A8EA4AD616FFFB /* Pods-Jipuri_ViewTests.debug.xcconfig */,
+				18F88838A7FCD5044AE7BEC4 /* Pods-Jipuri_ViewTests.release.xcconfig */,
+				B44138608D94716B0042720D /* Pods-Jipuri_ViewUITests.debug.xcconfig */,
+				E9725752ACA8003B9EEC636D /* Pods-Jipuri_ViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1235FBC542EA0051D14E2E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6187561C78B17EC6D938E5FA /* Pods_Jipuri_View.framework */,
+				2CB11A60E7AE01D4CBD974A7 /* Pods_Jipuri_ViewTests.framework */,
+				42748AD1540AE6288EC5951B /* Pods_Jipuri_ViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF2160FD1EC75DF200DE5AF1 = {
+			isa = PBXGroup;
+			children = (
+				DF2161081EC75DF300DE5AF1 /* Jipuri_View */,
+				DF21611D1EC75DF400DE5AF1 /* Jipuri_ViewTests */,
+				DF2161281EC75DF400DE5AF1 /* Jipuri_ViewUITests */,
+				DF2161071EC75DF300DE5AF1 /* Products */,
+				AA3A573C44970DCBE1E07D81 /* Pods */,
+				D1235FBC542EA0051D14E2E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF2161071EC75DF300DE5AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF2161061EC75DF300DE5AF1 /* Jipuri_View.app */,
+				DF21611A1EC75DF400DE5AF1 /* Jipuri_ViewTests.xctest */,
+				DF2161251EC75DF400DE5AF1 /* Jipuri_ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF2161081EC75DF300DE5AF1 /* Jipuri_View */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D05011ECE8E2D0008BEA4 /* Pictures */,
+				DF2161091EC75DF300DE5AF1 /* AppDelegate.swift */,
+				DF21610B1EC75DF300DE5AF1 /* ViewController.swift */,
+				DF21610D1EC75DF300DE5AF1 /* Main.storyboard */,
+				DF2161381EC765FA00DE5AF1 /* Event.storyboard */,
+				DF9D05041ECEDF120008BEA4 /* Event_Join.swift */,
+				DFD65AB91ECB5439006CB161 /* Event_Detail.swift */,
+				DF6CFC6F1EC969A70072B31E /* Event_CustomTableViewCell.swift */,
+				DF9D05021ECE91880008BEA4 /* Event_Detail_Custom_TableViewCell.swift */,
+				DF6CFC711EC96D640072B31E /* Event.swift */,
+				DF21613A1EC7660B00DE5AF1 /* Information.storyboard */,
+				DF3536431EC83BE2001F981A /* Information_CustomTableViewCell.swift */,
+				DF21613E1EC76B4000DE5AF1 /* Information.swift */,
+				DF21613C1EC7661700DE5AF1 /* Config.storyboard */,
+				DF9D05081ED182320008BEA4 /* Config_Custom_TableViewCell.swift */,
+				DF9D05061ED16D120008BEA4 /* Config.swift */,
+				DF9D050A1ED1CE370008BEA4 /* Config_Custom01_TableViewCell.swift */,
+				DF2161371EC7617A00DE5AF1 /* Jipuri_View_Bridging-Header.h */,
+				DF2161101EC75DF300DE5AF1 /* Assets.xcassets */,
+				DF2161121EC75DF300DE5AF1 /* LaunchScreen.storyboard */,
+				DF2161151EC75DF300DE5AF1 /* Info.plist */,
+			);
+			path = Jipuri_View;
+			sourceTree = "<group>";
+		};
+		DF21611D1EC75DF400DE5AF1 /* Jipuri_ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF21611E1EC75DF400DE5AF1 /* Jipuri_ViewTests.swift */,
+				DF2161201EC75DF400DE5AF1 /* Info.plist */,
+			);
+			path = Jipuri_ViewTests;
+			sourceTree = "<group>";
+		};
+		DF2161281EC75DF400DE5AF1 /* Jipuri_ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF2161291EC75DF400DE5AF1 /* Jipuri_ViewUITests.swift */,
+				DF21612B1EC75DF400DE5AF1 /* Info.plist */,
+			);
+			path = Jipuri_ViewUITests;
+			sourceTree = "<group>";
+		};
+		DF9D05011ECE8E2D0008BEA4 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D04FF1ECE8DFA0008BEA4 /* jinkawa_logo.jpg */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF2161051EC75DF200DE5AF1 /* Jipuri_View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF21612E1EC75DF400DE5AF1 /* Build configuration list for PBXNativeTarget "Jipuri_View" */;
+			buildPhases = (
+				654386D06DEBD9F5BF043AFD /* [CP] Check Pods Manifest.lock */,
+				DF2161021EC75DF200DE5AF1 /* Sources */,
+				DF2161031EC75DF200DE5AF1 /* Frameworks */,
+				DF2161041EC75DF200DE5AF1 /* Resources */,
+				110D2361E7CC4DC656034285 /* [CP] Embed Pods Frameworks */,
+				9DEE4DC062010BBF45338972 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jipuri_View;
+			productName = Jipuri_View;
+			productReference = DF2161061EC75DF300DE5AF1 /* Jipuri_View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF2161191EC75DF400DE5AF1 /* Jipuri_ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2161311EC75DF400DE5AF1 /* Build configuration list for PBXNativeTarget "Jipuri_ViewTests" */;
+			buildPhases = (
+				B5885F7109073ACE84804CB7 /* [CP] Check Pods Manifest.lock */,
+				DF2161161EC75DF400DE5AF1 /* Sources */,
+				DF2161171EC75DF400DE5AF1 /* Frameworks */,
+				DF2161181EC75DF400DE5AF1 /* Resources */,
+				F86E61FC3A91DDB9CD452C59 /* [CP] Embed Pods Frameworks */,
+				17679D7ACFCC96E232F879A5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF21611C1EC75DF400DE5AF1 /* PBXTargetDependency */,
+			);
+			name = Jipuri_ViewTests;
+			productName = Jipuri_ViewTests;
+			productReference = DF21611A1EC75DF400DE5AF1 /* Jipuri_ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF2161241EC75DF400DE5AF1 /* Jipuri_ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF2161341EC75DF400DE5AF1 /* Build configuration list for PBXNativeTarget "Jipuri_ViewUITests" */;
+			buildPhases = (
+				214A73DD3A6A6CB2CFE99F57 /* [CP] Check Pods Manifest.lock */,
+				DF2161211EC75DF400DE5AF1 /* Sources */,
+				DF2161221EC75DF400DE5AF1 /* Frameworks */,
+				DF2161231EC75DF400DE5AF1 /* Resources */,
+				3BCE18E7FA2F95F1CFE17281 /* [CP] Embed Pods Frameworks */,
+				4816EF67DB5047173508867C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF2161271EC75DF400DE5AF1 /* PBXTargetDependency */,
+			);
+			name = Jipuri_ViewUITests;
+			productName = Jipuri_ViewUITests;
+			productReference = DF2161251EC75DF400DE5AF1 /* Jipuri_ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF2160FE1EC75DF200DE5AF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "横山　新";
+				TargetAttributes = {
+					DF2161051EC75DF200DE5AF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4CCKBY4C58;
+						ProvisioningStyle = Automatic;
+					};
+					DF2161191EC75DF400DE5AF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF2161051EC75DF200DE5AF1;
+					};
+					DF2161241EC75DF400DE5AF1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF2161051EC75DF200DE5AF1;
+					};
+				};
+			};
+			buildConfigurationList = DF2161011EC75DF200DE5AF1 /* Build configuration list for PBXProject "Jipuri_View" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF2160FD1EC75DF200DE5AF1;
+			productRefGroup = DF2161071EC75DF300DE5AF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF2161051EC75DF200DE5AF1 /* Jipuri_View */,
+				DF2161191EC75DF400DE5AF1 /* Jipuri_ViewTests */,
+				DF2161241EC75DF400DE5AF1 /* Jipuri_ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF2161041EC75DF200DE5AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2161141EC75DF300DE5AF1 /* LaunchScreen.storyboard in Resources */,
+				DF2161391EC765FA00DE5AF1 /* Event.storyboard in Resources */,
+				DF21613D1EC7661700DE5AF1 /* Config.storyboard in Resources */,
+				DF21613B1EC7660B00DE5AF1 /* Information.storyboard in Resources */,
+				DF2161111EC75DF300DE5AF1 /* Assets.xcassets in Resources */,
+				DF9D05001ECE8DFA0008BEA4 /* jinkawa_logo.jpg in Resources */,
+				DF21610F1EC75DF300DE5AF1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2161181EC75DF400DE5AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2161231EC75DF400DE5AF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		110D2361E7CC4DC656034285 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipuri_View/Pods-Jipuri_View-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17679D7ACFCC96E232F879A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipuri_ViewTests/Pods-Jipuri_ViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		214A73DD3A6A6CB2CFE99F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3BCE18E7FA2F95F1CFE17281 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipuri_ViewUITests/Pods-Jipuri_ViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4816EF67DB5047173508867C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipuri_ViewUITests/Pods-Jipuri_ViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654386D06DEBD9F5BF043AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEE4DC062010BBF45338972 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipuri_View/Pods-Jipuri_View-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5885F7109073ACE84804CB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F86E61FC3A91DDB9CD452C59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jipuri_ViewTests/Pods-Jipuri_ViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF2161021EC75DF200DE5AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6CFC701EC969A70072B31E /* Event_CustomTableViewCell.swift in Sources */,
+				DF9D050B1ED1CE370008BEA4 /* Config_Custom01_TableViewCell.swift in Sources */,
+				DF21613F1EC76B4000DE5AF1 /* Information.swift in Sources */,
+				DF9D05031ECE91880008BEA4 /* Event_Detail_Custom_TableViewCell.swift in Sources */,
+				DF21610C1EC75DF300DE5AF1 /* ViewController.swift in Sources */,
+				DF9D05051ECEDF120008BEA4 /* Event_Join.swift in Sources */,
+				DF21610A1EC75DF300DE5AF1 /* AppDelegate.swift in Sources */,
+				DFD65ABA1ECB5439006CB161 /* Event_Detail.swift in Sources */,
+				DF9D05071ED16D120008BEA4 /* Config.swift in Sources */,
+				DF6CFC721EC96D640072B31E /* Event.swift in Sources */,
+				DF3536441EC83BE2001F981A /* Information_CustomTableViewCell.swift in Sources */,
+				DF9D05091ED182320008BEA4 /* Config_Custom_TableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2161161EC75DF400DE5AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21611F1EC75DF400DE5AF1 /* Jipuri_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2161211EC75DF400DE5AF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF21612A1EC75DF400DE5AF1 /* Jipuri_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF21611C1EC75DF400DE5AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2161051EC75DF200DE5AF1 /* Jipuri_View */;
+			targetProxy = DF21611B1EC75DF400DE5AF1 /* PBXContainerItemProxy */;
+		};
+		DF2161271EC75DF400DE5AF1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF2161051EC75DF200DE5AF1 /* Jipuri_View */;
+			targetProxy = DF2161261EC75DF400DE5AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF21610D1EC75DF300DE5AF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF21610E1EC75DF300DE5AF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF2161121EC75DF300DE5AF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF2161131EC75DF300DE5AF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF21612C1EC75DF400DE5AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF21612D1EC75DF400DE5AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF21612F1EC75DF400DE5AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EBAF84E3943196735E8F430 /* Pods-Jipuri_View.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CCKBY4C58;
+				INFOPLIST_FILE = Jipuri_View/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bob.Jipuri-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yokoyamaarata/Documents/Swift/Jipuri_View/Jipuri_View/Jipuri_View_Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DF2161301EC75DF400DE5AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6C7C25D5A71B3D3FD982FE1 /* Pods-Jipuri_View.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4CCKBY4C58;
+				INFOPLIST_FILE = Jipuri_View/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bob.Jipuri-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yokoyamaarata/Documents/Swift/Jipuri_View/Jipuri_View/Jipuri_View_Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DF2161321EC75DF400DE5AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D261C007A8EA4AD616FFFB /* Pods-Jipuri_ViewTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jipuri_ViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bob.Jipuri-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jipuri_View.app/Jipuri_View";
+			};
+			name = Debug;
+		};
+		DF2161331EC75DF400DE5AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18F88838A7FCD5044AE7BEC4 /* Pods-Jipuri_ViewTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Jipuri_ViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bob.Jipuri-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jipuri_View.app/Jipuri_View";
+			};
+			name = Release;
+		};
+		DF2161351EC75DF400DE5AF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B44138608D94716B0042720D /* Pods-Jipuri_ViewUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Jipuri_ViewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bob.Jipuri-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jipuri_View;
+			};
+			name = Debug;
+		};
+		DF2161361EC75DF400DE5AF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9725752ACA8003B9EEC636D /* Pods-Jipuri_ViewUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Jipuri_ViewUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bob.Jipuri-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Jipuri_View;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF2161011EC75DF200DE5AF1 /* Build configuration list for PBXProject "Jipuri_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF21612C1EC75DF400DE5AF1 /* Debug */,
+				DF21612D1EC75DF400DE5AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF21612E1EC75DF400DE5AF1 /* Build configuration list for PBXNativeTarget "Jipuri_View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF21612F1EC75DF400DE5AF1 /* Debug */,
+				DF2161301EC75DF400DE5AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2161311EC75DF400DE5AF1 /* Build configuration list for PBXNativeTarget "Jipuri_ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2161321EC75DF400DE5AF1 /* Debug */,
+				DF2161331EC75DF400DE5AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF2161341EC75DF400DE5AF1 /* Build configuration list for PBXNativeTarget "Jipuri_ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF2161351EC75DF400DE5AF1 /* Debug */,
+				DF2161361EC75DF400DE5AF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF2160FE1EC75DF200DE5AF1 /* Project object */;
+}
