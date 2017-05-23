@@ -14,14 +14,18 @@
 
 ## スクリーンショット
 
-![画像1](/readme-pic/Jipuri_View_Pic00.png)
-
 *イベントリスト
 
-![画像2](/readme-pic/JIpuri_View_Pic01.png)
+<img src="/readme-pic/Jipuri_View_Pic00.png" width="320px">
+
+
 
 *お知らせリスト
 
-![画像3](/readme-pic/Jipuri_View_Pic02.png)
+<img src="/readme-pic/JIpuri_View_Pic01.png" width="320px">
+
+
 
 *イベント申込時のバリテーション
+
+<img src="/readme-pic/Jipuri_View_Pic02.png" width="320px">
