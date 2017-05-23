@@ -18,7 +18,7 @@
 
 *イベントリスト
 
-![画像2](/readme-pic/Jipuri_View_Pic01.png)
+![画像2](/readme-pic/JIpuri_View_Pic01.png)
 
 *お知らせリスト
 
